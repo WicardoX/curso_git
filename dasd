@@ -1,0 +1,24 @@
+[1mdiff --git a/pagina.html b/pagina.html[m
+[1mindex fe26167..75eeefb 100644[m
+[1m--- a/pagina.html[m
+[1m+++ b/pagina.html[m
+[36m@@ -2,9 +2,11 @@[m
+ <h3>Comandos Básicos</h3>[m
+ [m
+ <li><b>git init:</b> inicializa un repositorio</li>[m
+[31m-<li>git status</li>[m
+[31m-<li>git add</li>[m
+[31m-<li>git commit</li>[m
+[31m-<li>git log</li>[m
+[31m-<li>git diff</li>[m
+[31m-<li>git checkout</li>[m
+\ No newline at end of file[m
+[32m+[m[32m<li><b>git status:</b> nuestra el estado de los archivos del proyecto</li>[m
+[32m+[m[32m<li><b>git add:</b> Agrega los archivos al Area de preparado (Staing Area)</li>[m
+[32m+[m[32m<li><b>git commit -m "":</b> Guarda los archivos preparados en el repositorio</li>[m
+[32m+[m[32m<li>git log: Muestras los commits</li>[m
+[32m+[m[32m<li>git diff; Muestra las differencias entre los archivos </li>[m
+[32m+[m[32m<li>git checkout</li>[m
+[32m+[m[32m<li>git config --global user.email "correo@host.com"</li>[m
+[32m+[m[32m<li>git config --global user.name "name"</li>[m
+\ No newline at end of file[m
